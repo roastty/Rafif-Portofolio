@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
             duration: "Ongoing",
             deliverables: ["Anime Music Video", "Motion Graphics", "Beat Syncing"],
             tags: ["AMV", "Aligh Motion", "MOTION"],
-            image: "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ac090c83ad994260a1f7145c7e925d4f_1728908780~tplv-tiktokx-origin.image?dr=9636&x-expires=1779436800&x-signature=L%2FXbdkp6VwdWjEFb068f%2BKDtRFQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=55bbe6a9&idc=useast5",
+            image: "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ac090c83ad994260a1f7145c7e925d4f_1728908780~tplv-tiktokx-origin.image?dr=9636&x-expires=1779451200&x-signature=uRsysEKOmmlblqYUSG0mmhf0YbM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=55bbe6a9&idc=useast5",
             description: "Pembuatan Anime Music Video (AMV) dan Motion Graphics yang berfokus pada sinkronisasi audio-visual tingkat tinggi (beat sync), transisi mulus, dan penggunaan efek visual untuk menciptakan pengalaman visual yang intens.",
             links: [
                 { text: "Instagram Project 1 <i class='fa-brands fa-instagram'></i>", url: "https://www.instagram.com/p/Cr-zgmQpz60/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
