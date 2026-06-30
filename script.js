@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
             duration: "Ongoing",
             deliverables: ["Anime Music Video", "Motion Graphics", "Beat Syncing"],
             tags: ["AMV", "Aligh Motion", "MOTION"],
-            image: "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ac090c83ad994260a1f7145c7e925d4f_1728908780~tplv-tiktokx-origin.image?dr=9636&x-expires=1779451200&x-signature=uRsysEKOmmlblqYUSG0mmhf0YbM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=55bbe6a9&idc=useast5",
+            image: "https://p19-common-sign.tiktokcdn-us.com/tos-alisg-p-0037/ac090c83ad994260a1f7145c7e925d4f_1728908780~tplv-tiktokx-origin.image?dr=9636&x-expires=1779436800&x-signature=L%2FXbdkp6VwdWjEFb068f%2BKDtRFQ%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=55bbe6a9&idc=useast5",
             description: "Pembuatan Anime Music Video (AMV) dan Motion Graphics yang berfokus pada sinkronisasi audio-visual tingkat tinggi (beat sync), transisi mulus, dan penggunaan efek visual untuk menciptakan pengalaman visual yang intens.",
             links: [
                 { text: "Instagram Project 1 <i class='fa-brands fa-instagram'></i>", url: "https://www.instagram.com/p/Cr-zgmQpz60/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" },
@@ -129,6 +129,24 @@ document.addEventListener('DOMContentLoaded', () => {
             galleryItems: [
                 { type: "youtube", url: "https://youtu.be/93C1MVgwxB4?si=GY8nkvrk7gD81eNx" }, 
                 { type: "youtube", url: "https://youtu.be/0A5GgwfVDA8?si=vy_Wy_gEsqGpwOSe" }  
+            ]
+        },
+        "6": {
+            title: "VibeDeck Music Player",
+            role: "Software Developer",
+            duration: "Ongoing",
+            deliverables: ["Desktop Application", "Firebase Integration", "Modern UI/UX"],
+            tags: ["SOFTWARE", "VIBECODING", "FIREBASE"],
+            image: "assetgambar/vibedeck-4.png",
+            description: "Pembuatan software music player desktop (VibeDeck) dengan antarmuka modern yang dikembangkan melalui vibecoding. Dilengkapi dengan integrasi Firebase untuk penyimpanan data, serta fitur-fitur pemutar musik premium.",
+            links: [
+                { text: "Download App (Google Drive) <i class='fa-solid fa-download'></i>", url: "https://drive.google.com/file/d/1HZYlJ7pdg6cKGeB6AODd_A6L3vOcPweq/view?usp=drive_link" }
+            ],
+            galleryTitle: "SCREENSHOT APLIKASI",
+            galleryItems: [
+                { type: "image", url: "assetgambar/vibedeck-1.png" },
+                { type: "image", url: "assetgambar/vibedeck-2.png" },
+                { type: "image", url: "assetgambar/vibedeck-3.png" }
             ]
         }
     };
