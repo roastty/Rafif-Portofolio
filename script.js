@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     const icon = themeToggleBtn.querySelector('i');
 
-    if (localStorage.getItem('theme') === 'light') {
-        body.classList.add('light-mode');
-        icon.classList.replace('fa-moon', 'fa-sun');
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.remove('light-mode');
+        icon.classList.replace('fa-sun', 'fa-moon');
     }
 
     themeToggleBtn.addEventListener('click', () => {
@@ -147,6 +147,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 { type: "image", url: "assetgambar/vibedeck-1.png" },
                 { type: "image", url: "assetgambar/vibedeck-2.png" },
                 { type: "image", url: "assetgambar/vibedeck-3.png" }
+            ]
+        },
+        "7": {
+            title: "Project Website - PC Build",
+            role: "Frontend Developer",
+            duration: "Ongoing",
+            deliverables: ["Website Interaktif", "Integrasi Firebase", "Desain Responsif"],
+            tags: ["WEBSITE", "FRONTEND", "FIREBASE"],
+            image: "assetgambar/pcbuild1.png",
+            description: "Pembuatan website simulasi merakit PC dengan antarmuka yang interaktif. Pengguna dapat memilih berbagai komponen PC dan melihat total harga serta spesifikasi secara dinamis. Proyek ini juga menggunakan integrasi Firebase untuk menyimpan dan mengambil data part PC.",
+            links: [
+                { text: "Live Demo <i class='fa-solid fa-globe'></i>", url: "https://roastty.github.io/pcbuild/" }
+            ],
+            galleryTitle: "SCREENSHOT WEBSITE",
+            galleryItems: [
+                { type: "image", url: "assetgambar/pcbuild1.png" },
+                { type: "image", url: "assetgambar/pcbuild2.png" },
+                { type: "image", url: "assetgambar/pcbuild3.png" },
+                { type: "image", url: "assetgambar/pcbuild4.png" },
+                { type: "image", url: "assetgambar/pcbuild5.png" },
+                { type: "image", url: "assetgambar/pcbuild6.png" },
+                { type: "image", url: "assetgambar/pcbuild7.png" },
+                { type: "image", url: "assetgambar/pcbuild8.png" },
+                { type: "image", url: "assetgambar/pcbuild9.png" }
             ]
         }
     };
@@ -339,8 +363,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 4. SCROLL FADE IN/OUT EFFECT ---
     const observerOptions = {
         root: null,
-        rootMargin: '0px',
-        threshold: 0.15 
+        rootMargin: '50px',
+        threshold: 0.05 
     };
 
     const fadeObserver = new IntersectionObserver((entries) => {
@@ -356,10 +380,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const elementsToFade = document.querySelectorAll('.hero-title, .hero-subtitle, .badge, .cta-link, .center-header, .split-left, .split-right, .project-card, .skills-col, .contact-info, .social-links');
 
     if(elementsToFade) {
-        elementsToFade.forEach((el, index) => {
+        let cardIndex = 0;
+        elementsToFade.forEach((el) => {
             el.classList.add('fade-scroll');
             if (el.classList.contains('project-card')) {
-                el.style.transitionDelay = `${index * 0.1}s`; 
+                el.style.transitionDelay = `${cardIndex * 0.05}s`; 
+                cardIndex++;
             }
             fadeObserver.observe(el);
         });
