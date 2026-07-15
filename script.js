@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         "2": {
-            title: "Profile Project Video",
+            title: "Project Video",
             role: "Videographer & Editor",
             duration: "2 Bulan",
             deliverables: ["Cinematic Profile Video", "Short Movie Project", "Color Grading & Sound Design"],
